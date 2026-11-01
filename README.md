@@ -66,3 +66,7 @@ Both run offline against stubs. No WordPress and no browser needed.
 - No consent log. The visitor's own cookie is the record, which is what the ICO expects for a site this size, but it is not an audit trail.
 - The wipe list is a fixed pattern. A tag that sets a cookie under another name survives Decline until the name is added to `kill` in `assets/consent.js`.
 - Scripts are not blocked before consent - Consent Mode tells Google's tags to hold off, which covers GA4 and AdSense. A hard-coded third-party embed (a YouTube iframe, a chat widget) still loads.
+
+## License
+
+GPL-2.0-or-later, like WordPress itself. See [LICENSE](LICENSE).
